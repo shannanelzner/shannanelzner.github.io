@@ -1,8 +1,7 @@
 body {
 	text-align: center;
-	background: url("http://i.imgur.com/UEApH6o.jpg");
-	background-size: cover;
-	color: #fff;
+	background-color: #bdc3c7;
+	color: #000;
 	font-size: large;
 	font-weight: bold;
 	font-style: "Trebuchet MS", Helvetica, sans-serif;
@@ -11,9 +10,15 @@ body {
 	font-style: italic;
 }
 .center {
+	background: url("http://i.imgur.com/UEApH6o.jpg");
+	background-size: cover;
+	color: #fff;
 	padding: 300px;
 	border: 10px solid #fff;
 	border-radius: 50%;
+}
+#center-text {
+	text-align: right;
 }
 .fa-envelope {
 	color: #2ecc71;
