@@ -6,6 +6,15 @@ body {
 	font-weight: bold;
 	font-style: "Trebuchet MS", Helvetica, sans-serif;
 }
+.nav-bar > ul {
+	text-align: left;
+	list-style: none;
+	padding: 0px;
+}
+.nav-bar > ul > li {
+	padding: 5px;
+	padding-bottom: 0px;
+}
 #slogan {
 	font-style: italic;
 }
@@ -22,4 +31,7 @@ body {
 }
 .fa-envelope {
 	color: #2ecc71;
+}
+a:hover {
+	color: blue;
 }
