@@ -1,21 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Lora|Chivo);
-html {
+body {
 	background: url("../images/NarrowsBridge.jpg") no-repeat center center fixed;
 	background-size: cover;
-}
-body {
 	text-align: center;
 	color: #fff;
 	font-size: 21px;
 	font-weight: bold;
 	font-family: 'Lora', Helvetica, serif;
 }
-.nav-bar > ul {
+nav {
 	text-align: left;
 	list-style: none;
 	padding-left: 3px;
 }
-.nav-bar > ul > li {
+nav > li {
 	padding: 5px;
 	padding-bottom: 0px;
 }
