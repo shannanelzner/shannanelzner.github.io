@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Chivo);
+header {
+	background: #FFED74;
+}
+body {
+	font-size: 16px;
+	font-family: 'Lora', Helvetica, serif;
+}
+nav {
+	background: #E8C66A;
+}
+h1, h2, h3, h4 {
+	font-family: 'Chivo', sans-serif;
+}
+article {
+	background: #E89C6C;
+}
+aside {
+	background: #FFC675;
+}
+footer {
+	background: #FF957E;
+}
+section {
+	background: #FFE2B8;
+}
+div {
+	background: #FFE2B8;
+}
+li {
+	list-style: none;
+}
+a:hover {
+	color: blue;
+}
+a:active {
+	text-decoration: none;
+}
