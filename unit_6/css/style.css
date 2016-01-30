@@ -1,0 +1,80 @@
+/**, *:before, *:after {     margin: 0;     padding: 0;     -moz-box-sizing: border-box;     -webkit-box-sizing: border-box;     box-sizing: border-box; }*/
+@import url(https://fonts.googleapis.com/css?family=Lora|Chivo);
+header {
+	background: #FFED74;
+}
+body {
+	font-size: 16px;
+	font-family: 'Lora', Helvetica, serif;
+}
+nav {
+	background: #E8C66A;
+}
+h1, h2, h3, h4 {
+	font-family: 'Chivo', sans-serif;
+}
+article {
+	background: #E89C6C;
+}
+footer {
+	background: #FF957E;
+}
+section {
+	background: #FFE2B8;
+}
+div {
+	background: #FFE2B8;
+}
+li {
+	list-style: none;
+}
+a:hover {
+	color: blue;
+}
+a:active {
+	text-decoration: none;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#about {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 46%;
+}
+#skill {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 40%;
+}
+#experience {
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 44%;
+}
+#home img {
+	width: 100%; 
+}
