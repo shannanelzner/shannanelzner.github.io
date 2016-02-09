@@ -1,26 +1,47 @@
-/**, *:before, *:after {     margin: 0;     padding: 0;     -moz-box-sizing: border-box;     -webkit-box-sizing: border-box;     box-sizing: border-box; }*/
 @import url(https://fonts.googleapis.com/css?family=Lora|Chivo);
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 header {
-	background: #FFED74;
+	/*background: #FFED74;*/
 }
 body {
 	font-size: 16px;
 	font-family: 'Lora', Helvetica, serif;
 }
 nav {
-	background: #E8C66A;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 5px solid black;
+	z-index: 9;
+	width: 100%;
+	background-color: black;
+}
+nav li {
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+nav li a {
+	text-decoration: none;
+	color: yellow;
 }
 h1, h2, h3, h4 {
 	font-family: 'Chivo', sans-serif;
 }
 article {
-	background: #E89C6C;
 }
 footer {
-	background: #FF957E;
 }
 section {
-	background: #FFE2B8;
 }
 div {
 	background: #FFE2B8;
@@ -42,24 +63,39 @@ a:active {
 	clear: both;
 	height: 0;
 }
+#home {
+	position: relative;
+}
+#center-text {
+	position: absolute;
+	top: 25%;
+	left: 65%;
+}
 #about {
 	background-color: #FFB7CF;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 }
 #left {
 	background-color: #E582A2;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 	float: left;
-	width: 46%;
+	width: 33%;
+}
+#center {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	width: 33%;
 }
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 	float: left;
-	width: 46%;
+	width: 33%;
 }
 #skill {
 	background-color: #fff;
