@@ -8,9 +8,6 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
-header {
-	/*background: #FFED74;*/
-}
 body {
 	font-size: 16px;
 	font-family: 'Lora', Helvetica, serif;
@@ -36,19 +33,20 @@ nav li a {
 }
 h1, h2, h3, h4 {
 	font-family: 'Chivo', sans-serif;
-}
-article {
+	padding: 7px;
 }
 footer {
 	border: 5px solid black;
 	width: 100%;
 	background-color: black;
-	text-align: center;
 	color: #99e6ff;
+	display: block;
 }
-section {
-}
-div {
+footer a {
+	color: #99e6ff;
+	padding-right: 20%;
+	text-align: center;
+	float: right;
 }
 li {
 	list-style: none;
@@ -67,14 +65,30 @@ a:active {
 	clear: both;
 	height: 0;
 }
+/*.info-box {*/
+	/*width: 33.3333%;*/
+	/*height: 0;*/
+	/*padding-bottom: 50%;*/
+	/*overflow: hidden;*/
+/*}*/
+.project-box {
+	padding: 10px;
+}
 #home {
 	position: relative;
 }
 #center-text {
 	position: absolute;
-	font-family: 'Berkshire Swash', cursive;
 	top: 25%;
 	left: 65%;
+}
+#center-text h1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 2.5em;
+}
+#center-text h3 {
+	font-size: 1.2em;
+	text-align: center;
 }
 #about {
 	background-color: #d1d1e0;
@@ -108,19 +122,41 @@ a:active {
 }
 #home img {
 	width: 100%; 
+	display: block;
 }
 #portfolio {
+	padding: 10px;
 	width: 100%;
 	height: 100%;
 	background-color: #ccffeb;
+	text-align: center;
+}
+#project1 {
+	border: 3px black solid;
+	width: 40%;
+	padding: 40px;
+	margin: 5%;
+	float: left;
+	border-radius: 10%
+}
+#project2 {
+	border: 3px black solid;
+	width: 40%;
+	padding: 40px;
+	margin: 5%;
+	float: left;
+	border-radius: 10%
+}
+#contact {
+	width: 100%;
+	height: 100%;
 }
 @media screen and (max-width: 768px) {
 	body {
-		float: none;
 	}
 }
 @media screen and (max-width: 400px) {
-	body {
+	.info-box {
 		float: none;
 		width: 100%;
 	}
