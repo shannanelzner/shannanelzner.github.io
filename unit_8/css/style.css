@@ -66,12 +66,6 @@ a:active {
 	clear: both;
 	height: 0;
 }
-/*.info-box {*/
-	/*width: 33.3333%;*/
-	/*height: 0;*/
-	/*padding-bottom: 50%;*/
-	/*overflow: hidden;*/
-/*}*/
 .project-box {
 	padding: 10px;
 }
@@ -101,20 +95,17 @@ a:active {
 	font-size: 1.5em;
 }
 #left {
-	border: 3px #00303F solid;
 	text-align: center;
 	padding: 10px;
-	width: 60%;
+	width: 65%;
 	margin: auto;
 }
 #center {
-	border: 3px #00303F solid;
 	padding: 10px;
 	float: left;
 	width: 50%;
 }
 #right {
-	border: 3px #00303F solid;
 	padding: 10px;
 	float: left;
 	width: 50%;
@@ -165,7 +156,6 @@ a:active {
 	padding: 40px;
 	margin: 5%;
 	float: left;
-	border-radius: 10%
 }
 #project1 i {
 	padding: 10px;
@@ -178,7 +168,6 @@ a:active {
 	padding: 40px;
 	margin: 5%;
 	float: left;
-	border-radius: 10%
 }
 #project2 i {
 	padding: 10px;
@@ -193,9 +182,25 @@ a:active {
 	body {
 	}
 }
-@media screen and (max-width: 400px) {
-	.info-box {
+@media screen and (max-width: 420px) {
+	#about {
 		float: none;
 		width: 100%;
+		display: block;
+	}
+	#experience {
+		float: none;
+		width: 100%;
+		display: block;
+	}
+	#project1 {
+		float: none;
+		width: 100%;
+		display: block;
+	}
+	#project2 {
+		float: none;
+		width: 100%;
+		display: block;
 	}
 }
