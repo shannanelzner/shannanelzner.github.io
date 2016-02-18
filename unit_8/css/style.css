@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Lora|Chivo|Berkshire+Swash);
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header {
+	/*background: #FFED74;*/
+}
+body {
+	font-size: 16px;
+	font-family: 'Lora', Helvetica, serif;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	border: 5px solid black;
+	z-index: 9;
+	width: 100%;
+	background-color: black;
+}
+nav li {
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+nav li a {
+	text-decoration: none;
+	color: #99e6ff;
+}
+h1, h2, h3, h4 {
+	font-family: 'Chivo', sans-serif;
+}
+article {
+}
+footer {
+	border: 5px solid black;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: #99e6ff;
+}
+section {
+}
+div {
+}
+li {
+	list-style: none;
+}
+a:hover {
+	color: blue;
+}
+a:active {
+	text-decoration: none;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#home {
+	position: relative;
+}
+#center-text {
+	position: absolute;
+	font-family: 'Berkshire Swash', cursive;
+	top: 25%;
+	left: 65%;
+}
+#about {
+	background-color: #d1d1e0;
+	border: 1px black solid;
+	padding: 10px;
+}
+#left {
+	padding: 10px;
+	float: left;
+	width: 33%;
+}
+#center {
+	padding: 10px;
+	float: left;
+	width: 33%;
+}
+#right {
+	padding: 10px;
+	float: left;
+	width: 33%;
+}
+#skill {
+	padding: 20px;
+	float: left;
+	width: 40%;
+}
+#experience {
+	padding: 20px;
+	float: left;
+	width: 44%;
+}
+#home img {
+	width: 100%; 
+}
+#portfolio {
+	width: 100%;
+	height: 100%;
+	background-color: #ccffeb;
+}
+@media screen and (max-width: 768px) {
+	body {
+		float: none;
+	}
+}
+@media screen and (max-width: 400px) {
+	body {
+		float: none;
+		width: 100%;
+	}
+}
