@@ -210,8 +210,8 @@ a:active {
 	nav a {
 		font-size: .8em;
 	}
-	p {
-		font-size: 1.2em;
+	a:active {
+		text-decoration: none;
 	}
 	li {
 		font-size: 1.2em;
@@ -225,6 +225,7 @@ a:active {
 	}
 	#text {
 		width: 100%;
+		font-size: 1.2em;
 	}
 	#skill {
 		margin-left: 5px;
