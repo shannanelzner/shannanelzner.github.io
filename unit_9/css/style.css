@@ -126,7 +126,7 @@ a:active {
 }
 #skill {
 	padding: 20px;
-	margin-left: 250px;
+	margin-left: 50%;
 }
 #skill li {
 	padding: 3px;
@@ -164,10 +164,10 @@ a:active {
 }
 #project1 {
 	border: 3px #00303F solid;
-	width: 45%;
+	width: 46%;
 	padding: 50px;
 	float: left;
-	margin: 10px;
+	margin: 2%;
 }
 #project1 i {
 	padding: 10px;
@@ -176,10 +176,10 @@ a:active {
 }
 #project2 {
 	border: 3px #00303F solid;
-	width: 45%;
+	width: 46%;
 	padding: 50px;
 	float: right;
-	margin: 10px;
+	margin: 2%;
 }
 #project2 i {
 	padding: 10px;
@@ -199,7 +199,7 @@ a:active {
 		font-size: 1.3em;
 	}
 	#skill {
-		margin-left: 90px;
+		margin-left: 25%;
 	}
 	#center-text {
 		font-size: .71em;
@@ -208,6 +208,9 @@ a:active {
 	}
 	#center-text h2 {
 		padding: 0em;
+	}
+	#text {
+		width: 80%;
 	}
 }
 @media screen and (max-width: 428px) {
@@ -229,17 +232,19 @@ a:active {
 		font-size: 1.1em;
 	}
 	#skill {
-		margin-left: 5px;
+		margin: 0%;
 	}
 	#left {
 		float: none;
 		width: 100%;
 		display: block;
+		padding: 0px;
 	}
 	#right {
 		float: none;
 		width: 100%;
 		display: block;
+		padding: 0px;
 	}
 	#project1 {
 		float: none;
