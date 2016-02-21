@@ -13,6 +13,9 @@ body {
 	font-family: 'Lora', Helvetica, serif;
 	color: #00303F;
 }
+label {
+	display: none;
+}
 nav {
 	position: fixed;
 	top: 0;
@@ -79,6 +82,11 @@ a:active {
 	clear: both;
 	height: 0;
 }
+.container {
+	max-width: 1800px;
+	margin: auto;
+	background-color: #00303F;
+}
 #home {
 	position: relative;
 }
@@ -90,6 +98,10 @@ a:active {
 #center-text h1 {
 	font-family: 'Lobster', cursive;
 	font-size: 2.5em;
+}
+#toggle {
+	display: none;
+	visibility: hidden;
 }
 #about {
 	background-color: #CAE4DB;
@@ -151,6 +163,7 @@ a:active {
 #home img {
 	width: 100%; 
 	display: block;
+	max-width: 1800px;
 }
 #portfolio {
 	padding: 10px;
@@ -214,8 +227,17 @@ a:active {
 	}
 }
 @media screen and (max-width: 428px) {
+	/*label {*/
+		/*display: block;*/
+		/*cursor: pointer;*/
+		/*z-index: 9;*/
+	/*}*/
+	/*nav {*/
+		/*display: none;*/
+	/*}*/
 	nav a {
 		font-size: .8em;
+		display: block;
 	}
 	li {
 		font-size: 1.2em;
@@ -227,6 +249,9 @@ a:active {
 		padding-right: 15%;
 		font-size: 1.3em;
 	}
+	/*#toggle:checked + nav {*/
+		/*display: block;*/
+	/*}*/
 	#text {
 		width: 100%;
 		font-size: 1.1em;
