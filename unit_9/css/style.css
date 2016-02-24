@@ -146,7 +146,7 @@ a:active {
 }
 #skill i {
 	padding: 10px;
-	background-color: #DCAE1D;
+	background-color: #F7F6F0;
 	border-radius: 50%;
 }
 #experience {
@@ -157,7 +157,7 @@ a:active {
 }
 #experience i {
 	padding: 10px;
-	background-color: #DCAE1D;
+	background-color: #F7F6F0;
 	border-radius: 50%;
 }
 #home img {
@@ -184,7 +184,7 @@ a:active {
 }
 #project1 i {
 	padding: 10px;
-	background-color: #DCAE1D;
+	background-color: #F7F6F0;
 	border-radius: 50%;
 }
 #project2 {
@@ -196,7 +196,7 @@ a:active {
 }
 #project2 i {
 	padding: 10px;
-	background-color: #DCAE1D;
+	background-color: #F7F6F0;
 	border-radius: 50%;
 }
 #contact {
@@ -228,9 +228,10 @@ a:active {
 }
 @media screen and (max-width: 480px) {
 	label {
-		display: block;
+		display: inline-block;
+		background-color: #00303F;
 		cursor: pointer;
-		position: relative;
+		position: fixed;
 		z-index: 9999;
 		color: #99e6ff;
 	}
