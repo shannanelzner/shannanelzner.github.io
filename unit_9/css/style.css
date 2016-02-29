@@ -20,10 +20,11 @@ nav {
 	position: fixed;
 	top: 0;
 	left: 0;
-	border: 5px solid #00303F;
+	border: 5px solid #5E5D62;
 	z-index: 9;
 	width: 100%;
-	background-color: #00303F;
+	background-color: #5E5D62;
+	padding: 15px;
 }
 nav li {
 	display: block;
@@ -40,36 +41,40 @@ h3 {
 	text-transform: uppercase;
 }
 h2 {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	text-align: center;
-	color: #DCAE1D;
+	color: #B98D7A;
+	font: bolder;
 }
 p {
 	padding: 5px;
 }
 footer {
-	border: 5px solid #00303F;
+	border: 5px solid #5E5D62;
 	width: 100%;
-	background-color: #00303F;
-	color: #99e6ff;
+	background-color: #5E5D62;
 	display: block;
+	padding: 15px;
 }
 footer a {
-	color: #99e6ff;
+	color: #A5B7CB;
 	padding-right: 20%;
 	text-align: center;
 	float: right;
 	font-size: 1.4em;
+}
+span {
+	color: #EBBB7F;
 }
 li {
 	list-style: none;
 }
 a {
 	text-decoration: none;
-	color: #99e6ff;
+	color: #A5B7CB;
 }
 a:hover {
-	color: white;
+	color: #B98D7A;
 }
 a:active {
 	text-decoration: none;
@@ -87,12 +92,17 @@ a:active {
 	margin: auto;
 	background-color: #00303F;
 }
+.overlay-text {
+	position: absolute;
+	top: 75%;
+	left: 15%;
+}
 #home {
 	position: relative;
 }
 #center-text {
 	position: absolute;
-	top: 25%;
+	top: 22%;
 	left: 65%;
 }
 #center-text h1 {
@@ -104,7 +114,7 @@ a:active {
 	visibility: hidden;
 }
 #about {
-	background-color: #CAE4DB;
+	background-color: #C0CAD3;
 	border: 1px black solid;
 	padding: 10px;
 }
@@ -141,7 +151,7 @@ a:active {
 	margin-left: 50%;
 }
 #skill li {
-	padding: 3px;
+	padding: 10px;
 	text-align: left;
 }
 #skill i {
@@ -166,21 +176,26 @@ a:active {
 	max-width: 1800px;
 }
 #portfolio {
-	padding: 10px;
+	padding: 5px;
 	width: 100%;
 	height: 100%;
-	background-color: #7A9D96;
+	background-color: #8F9EBB;
 	text-align: center;
 }
 #portfolio h2 {
 	font-size: 1.5em;
 }
 #project1 {
+	position: relative;
 	border: 3px #00303F solid;
 	width: 46%;
 	padding: 50px;
 	float: left;
 	margin: 2%;
+}
+#project1 img {
+	width: 100%;
+	display: block;
 }
 #project1 i {
 	padding: 10px;
@@ -188,11 +203,16 @@ a:active {
 	border-radius: 50%;
 }
 #project2 {
+	position: relative;
 	border: 3px #00303F solid;
 	width: 46%;
 	padding: 50px;
 	float: right;
 	margin: 2%;
+}
+#project2 img {
+	width: 100%;
+	display: block;
 }
 #project2 i {
 	padding: 10px;
@@ -210,6 +230,11 @@ a:active {
 	footer a {
 		padding-right: 16%;
 		font-size: 1.3em;
+	}
+	.overlay-text {
+		font-size: .78em;
+		top: 70%;
+		left: 10%;
 	}
 	#skill {
 		margin-left: 25%;
@@ -233,7 +258,8 @@ a:active {
 		cursor: pointer;
 		position: fixed;
 		z-index: 9999;
-		color: #99e6ff;
+		color: #B98D7A;
+		padding: 7px;
 	}
 	nav {
 		display: none;
@@ -258,6 +284,9 @@ a:active {
 	}
 	.fa-times {
 		display: none;
+	}
+	.overlay-text {
+		font-size: .8em;
 	}
 	#toggle:checked + nav {
 		display: block;
