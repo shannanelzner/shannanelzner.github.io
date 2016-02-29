@@ -47,7 +47,7 @@ h2 {
 	font: bolder;
 }
 p {
-	padding: 5px;
+	padding: 10px;
 }
 footer {
 	border: 5px solid #5E5D62;
@@ -94,6 +94,7 @@ a:active {
 }
 .overlay-text {
 	position: absolute;
+	color: #00303F;
 	top: 75%;
 	left: 15%;
 }
@@ -189,7 +190,7 @@ a:active {
 	position: relative;
 	border: 3px #00303F solid;
 	width: 46%;
-	padding: 50px;
+	padding: 40px;
 	float: left;
 	margin: 2%;
 }
@@ -206,7 +207,7 @@ a:active {
 	position: relative;
 	border: 3px #00303F solid;
 	width: 46%;
-	padding: 50px;
+	padding: 40px;
 	float: right;
 	margin: 2%;
 }
