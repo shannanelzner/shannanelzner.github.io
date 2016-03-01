@@ -131,6 +131,10 @@ a:active {
 	width: 75%;
 	margin: auto;
 }
+#info img {
+	border-radius: 50%;
+	border: 5px #B98D7A solid;
+}
 #text {
 	width: 60%;
 	margin: auto;
@@ -202,6 +206,7 @@ a:active {
 	padding: 10px;
 	background-color: #F7F6F0;
 	border-radius: 50%;
+	border: 3px #B98D7A solid;
 }
 #project2 {
 	position: relative;
@@ -219,6 +224,7 @@ a:active {
 	padding: 10px;
 	background-color: #F7F6F0;
 	border-radius: 50%;
+	border: 3px #B98D7A solid;
 }
 #contact {
 	width: 100%;
