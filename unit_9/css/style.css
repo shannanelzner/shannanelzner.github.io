@@ -102,6 +102,11 @@ a:active {
 	top: 75%;
 	left: 15%;
 }
+.shadow {
+	-moz-box-shadow: 3px 3px 5px 6px #5E5D62;
+	-webkit-box-shadow: 3px 3px 5px 6px #5E5D62;
+	box-shadow: 3px 3px 5px 6px #5E5D62;
+}
 #home {
 	position: relative;
 }
@@ -350,5 +355,8 @@ a:active {
 	}
 	#center-text h2 {
 		padding: 0em;
+	}
+	#info {
+		width: 85%;
 	}
 }
