@@ -150,38 +150,51 @@ a:active {
 }
 #left {
 	padding: 10px;
-	float: left;
-	width: 50%;
+	width: 100%;
 	margin: auto;
+	line-height: 65px;
 }
 #right {
 	padding: 10px;
-	float: left;
-	width: 50%;
+	width: 100%;
 	margin: auto;
+	line-height: 65px;
 }
 #skill {
 	padding: 20px;
-	margin-left: 50%;
+}
+#skill h3 {
+	text-align: center;
 }
 #skill li {
-	padding: 10px;
-	text-align: left;
+	padding: 5px;
+	display: block;
+	float: left;
+	width: 25%;
+	text-align: center;
 }
 #skill i {
 	padding: 10px;
-	background-color: #F7F6F0;
+	background-color: #B98D7A;
 	border-radius: 50%;
 }
 #experience {
 	padding: 20px;
 }
+#experience h3 {
+	text-align: center;
+}
 #experience li {
-	padding: 5px;
+	padding: 15px;
+	display: block;
+	float: left;
+	width: 20%;
+	text-align: center;
+	line-height: 15px;
 }
 #experience i {
 	padding: 10px;
-	background-color: #F7F6F0;
+	background-color: #B98D7A;
 	border-radius: 50%;
 }
 #home img {
@@ -252,9 +265,6 @@ a:active {
 		top: 70%;
 		left: 10%;
 	}
-	#skill {
-		margin-left: 25%;
-	}
 	#center-text {
 		font-size: .71em;
 		top: 25%;
@@ -265,6 +275,12 @@ a:active {
 	}
 	#text {
 		width: 80%;
+	}
+	#skill li {
+		font-size: .8em;
+	}
+	#experience li {
+		font-size: .8em;
 	}
 }
 @media screen and (max-width: 480px) {
@@ -302,7 +318,7 @@ a:active {
 	}
 	footer a {
 		padding-right: 14%;
-		font-size: 1.3em;
+		font-size: 1.5em;
 	}
 	.fa-times {
 		display: none;
@@ -323,12 +339,9 @@ a:active {
 		width: 100%;
 		font-size: 1.1em;
 	}
-	#skill {
-		margin: 0%;
-	}
 	#left {
 		float: none;
-		width: 100%;
+		width: 50%;
 		display: block;
 		padding: 0px;
 	}
@@ -337,6 +350,14 @@ a:active {
 		width: 100%;
 		display: block;
 		padding: 0px;
+	}
+	#skill li{
+		width: 100%;
+		text-align: left;
+	}
+	#experience li {
+		width: 100%;
+		text-align: left;
 	}
 	#project1 {
 		float: none;
@@ -349,12 +370,13 @@ a:active {
 		display: block;
 	}
 	#center-text {
-		font-size: .5em;
+		font-size: .65em;
 		top: 20%;
 		left: 45%;
 	}
 	#center-text h2 {
 		padding: 0em;
+		font-size: 1.5em;
 	}
 	#info {
 		width: 85%;
