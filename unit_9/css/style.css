@@ -127,6 +127,7 @@ a:active {
 	background-color: #C0CAD3;
 	border: 1px black solid;
 	padding: 10px;
+	width: 100%;
 }
 #resume {
 	background-color: #00303F;
@@ -150,13 +151,13 @@ a:active {
 }
 #left {
 	padding: 10px;
-	width: 100%;
+	width: 60%;
 	margin: auto;
 	line-height: 65px;
 }
 #right {
 	padding: 10px;
-	width: 100%;
+	width: 80%;
 	margin: auto;
 	line-height: 65px;
 }
@@ -318,7 +319,7 @@ a:active {
 	}
 	footer a {
 		padding-right: 14%;
-		font-size: 1.5em;
+		font-size: 1.7em;
 	}
 	.fa-times {
 		display: none;
