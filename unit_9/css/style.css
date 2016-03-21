@@ -51,7 +51,7 @@ h2 {
 p {
 	padding: 10px;
 	line-height: 30px;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 footer {
 	border: 5px solid #5E5D62;
@@ -99,8 +99,8 @@ a:active {
 .overlay-text {
 	position: absolute;
 	color: #00303F;
-	top: 75%;
-	left: 15%;
+	top: 15%;
+	left: 35%;
 }
 .shadow {
 	-moz-box-shadow: 3px 3px 5px 6px #5E5D62;
@@ -131,6 +131,7 @@ a:active {
 }
 #resume {
 	background-color: #00303F;
+	font-size: 1.3em;
 	display: inline-block;
 	padding: 5px;
 	border-radius: 10%;
@@ -169,6 +170,7 @@ a:active {
 }
 #skill li {
 	padding: 5px;
+	font-size: 1.2em;
 	display: block;
 	float: left;
 	width: 25%;
@@ -176,6 +178,7 @@ a:active {
 }
 #skill i {
 	padding: 10px;
+	font-size: 3em;
 	background-color: #B98D7A;
 	border-radius: 50%;
 }
@@ -187,6 +190,7 @@ a:active {
 }
 #experience li {
 	padding: 15px;
+	font-size: 1.2em;
 	display: block;
 	float: left;
 	width: 20%;
@@ -195,6 +199,7 @@ a:active {
 }
 #experience i {
 	padding: 10px;
+	font-size: 3em;
 	background-color: #B98D7A;
 	border-radius: 50%;
 }
@@ -253,7 +258,7 @@ a:active {
 	width: 100%;
 	height: 100%;
 }
-@media screen and (min-width: 481px) and (max-width: 960px) {
+@media screen and (min-width: 481px) and (max-width: 982px) {
 	footer {
 		font-size: .8em;
 	}
@@ -263,7 +268,7 @@ a:active {
 	}
 	.overlay-text {
 		font-size: .78em;
-		top: 70%;
+		top: 10%;
 		left: 10%;
 	}
 	#center-text {
@@ -275,7 +280,7 @@ a:active {
 		padding: 0em;
 	}
 	#text {
-		width: 80%;
+		width: 85%;
 	}
 	#skill li {
 		font-size: .8em;
@@ -325,7 +330,9 @@ a:active {
 		display: none;
 	}
 	.overlay-text {
-		font-size: .8em;
+		font-size: .9em;
+		top: 15%;
+		left: 15%;
 	}
 	#toggle:checked + nav {
 		display: block;
@@ -342,7 +349,7 @@ a:active {
 	}
 	#left {
 		float: none;
-		width: 50%;
+		width: 60%;
 		display: block;
 		padding: 0px;
 	}
@@ -356,9 +363,15 @@ a:active {
 		width: 100%;
 		text-align: left;
 	}
+	#skill i {
+		font-size: 1.5em;
+	}
 	#experience li {
 		width: 100%;
 		text-align: left;
+	}
+	#experience i {
+		font-size: 1.5em;
 	}
 	#project1 {
 		float: none;
@@ -373,7 +386,7 @@ a:active {
 	#center-text {
 		font-size: .65em;
 		top: 20%;
-		left: 45%;
+		left: 43%;
 	}
 	#center-text h1 {
 		font-size: 2.5em;
